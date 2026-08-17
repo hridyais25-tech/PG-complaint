@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+#header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+#logo-content {
+    text-align: center;
+}
+
+#search {
+    text-align: center;
+    margin: 20px;
+}
+
+#search-input {
+    padding: 10px;
+    width: 250px;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+button a {
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+    text-align: center;
+}
+
+main {
+    padding: 30px;
+}
+
+section {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+}
+
+#category-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.category-box {
+    background-color: #eeeeee;
+    padding: 20px;
+    width: 200px;
+}
+
+#complaints-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.complaint-box {
+    background-color: #eeeeee;
+    padding: 20px;
+    width: 250px;
+}
+
+input,
+select,
+textarea {
+    padding: 10px;
+    width: 300px;
+}
+
+textarea {
+    height: 100px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
