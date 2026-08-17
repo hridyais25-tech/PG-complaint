@@ -1,0 +1,13 @@
+{
+  "name": "pg-complaint",
+  "version": "1.0.0",
+  "description": "PG Complaint Management System",
+  "main": "server.js",
+  "type":"module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
